@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+          <a routerLink="myComponent" class="nav-link" routerLinkActive="active">New Component</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="Pipes" class="nav-link" routerLinkActive="active">Pipes</a>
+    </li>
+    <li class="nav-item">
+        <a routerLink="StrDirectives" class="nav-link" routerLinkActive="active">Structural Directives</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="AttDirectives" class="nav-link" routerLinkActive="active">Attribute Directives</a>
+  </li>
+  <li class="nav-item">
+    <a routerLink="CustomDirectives" class="nav-link" routerLinkActive="active">Custom Directives</a>
+</li>
+
+<li class="nav-item">
+  <a routerLink="DataBindingOne" class="nav-link" routerLinkActive="active">DataBindingOne</a>
+</li>
+<li class="nav-item">
+  <a routerLink="DataBindingTwo" class="nav-link" routerLinkActive="active">DataBindingTwo</a>
+</li>
+<li class="nav-item">
+  <a routerLink="Services" class="nav-link" routerLinkActive="active">Services</a>
+</li>
+<li class="nav-item">
+  <a routerLink="HttpClient" class="nav-link" routerLinkActive="active">HttpClient</a>
+</li>
+<li class="nav-item">
+  <a routerLink="CreateStudent" class="nav-link" routerLinkActive="active">CreateStudent</a>
+</li>
+    </ul>
+  </nav>
+  <div class="container">
+    <br>
+    <h2 style="text-align: center;">{{title}}</h2>
+    <hr>  
+    <div class="card">
+      <div class="card-body">
+    <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>

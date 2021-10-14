@@ -1,0 +1,12 @@
+<h2>Structural Directives</h2>
+<ul *ngFor="let n of names">
+    <li>{{n.name}} </li>
+</ul>
+<br />
+<h3>Ng If</h3>
+<button (click)="show = !show">{{show ? 'hide' : 'show'}}</button>
+show = {{show}}
+<br>
+<div *ngIf="show">Text to show</div>
+
+<br />
